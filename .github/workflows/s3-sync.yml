@@ -21,4 +21,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./ s3://loan-default-model-bucket
+          aws s3 sync ./ s3://symtoms-covid-19-model-prediction
